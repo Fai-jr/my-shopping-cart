@@ -39,7 +39,7 @@ const Detail = () => {
             <div className='flex flex-col gap-5'>
                 <h1 className='text-4xl uppercase font-bold'>{detail.name}</h1>
                 <p className='font-bold text-3xl'>
-                    ${detail.price}
+                    FCFA{detail.price}
                 </p>
                 <div className='flex gap-5'>
                     <div className='flex gap-2 justify-center items-center'>

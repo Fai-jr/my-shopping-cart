@@ -22,7 +22,7 @@ const ProductCart = (props) => {
         <h3 className='text-2xl py-3 text-center font-medium'>{name}</h3>
         <div className='flex justify-between items-center'>
             <p>
-                $<span className='text-2xl font-medium'>{price}</span>
+                FCFA<span className='text-2xl font-medium'>{price}</span>
             </p>
             <button className='bg-gray-300 p-2 rounded-md text-sm hover:bg-gray-400 flex gap-2' onClick={handleAddToCart}>
                 <img src={iconCart} alt="" className='w-5'/>
